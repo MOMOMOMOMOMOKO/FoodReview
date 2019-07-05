@@ -1,0 +1,29 @@
+System: Ubuntu 16.04
+
+To create a virtual env:
+conda create --name my_env python=2
+
+Python 2.7.14
+
+To add admin user:
+python manage.py createsuruser
+
+To run at localhost:
+python manage.py runserver 127.0.0.1:8000
+
+Installed pckages:
+Package                   Version 
+------------------------- --------
+certifi                   2019.3.9
+confusable-homoglyphs     3.2.0   
+Django                    1.11.21 
+django-bootstrap3         11.0.0  
+django-registration       3.0.1   
+django-registration-redux 2.6     
+numpy                     1.16.4  
+pip                       19.1.1  
+pytz                      2019.1  
+scikit-learn              0.20.3  
+scipy                     1.2.2   
+setuptools                41.0.1  
+wheel                     0.33.4
